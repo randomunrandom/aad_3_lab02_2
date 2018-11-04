@@ -98,9 +98,9 @@ int main() {
         case 2: {
             string line;
             ifstream fin;
-            fin.open("/home/danai/Projects/c-cpp/aad_2_lab02/input", ios::in);
+            fin.open( "/home/danai/Projects/c-cpp/aad_3_lab02_2/input", ios::in);
             ofstream fout;
-            fout.open("/home/danai/Projects/c-cpp/aad_lab02/output", ios::out);
+            fout.open("/home/danai/Projects/c-cpp/aad_3_lab02_2/output", ios::out);
             getline(fin, line, ';');
             try {
                 n = stoi(line);
